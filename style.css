@@ -1,0 +1,80 @@
+html{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h1{
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+    gap: 10px;
+    height: 400px;
+    width: 400px;    
+}
+
+.drum{
+    height: 100px;
+    width: 100px;  
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.d1{
+    background-image: url("assets/images/di1.jpg");
+    background-size: cover;
+}
+
+.d2{
+    background-image: url("assets/images/di4.png");
+    background-size: cover;
+}
+
+.d3{
+    background-image: url("assets/images/di2.jpg");
+    background-size: cover;
+}
+
+.d4{
+    background-image: url("assets/images/di5.jpg");
+    background-size: cover;
+}
+
+.d5{
+    background-image: url("assets/images/di3.avif");
+    background-size: cover;
+}
+
+.d6{
+    background-image: url("assets/images/di6.avif");
+    background-size: cover;
+}
+
+.d7{
+    background-image: url("assets/images/di9.jpg");
+    background-size: cover;
+}
+
+.d8{
+    background-image: url("assets/images/di8.jpg");
+    background-size: cover;
+}
+
+.d9{
+    background-image: url("assets/images/di7.jpg");
+    background-size: cover;
+}
