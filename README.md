@@ -1,4 +1,4 @@
-# drum-kit
+# Drum-kit
 
 Simple Drum kit in which each button plays different tunes using Javascript.
 
