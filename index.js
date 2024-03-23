@@ -62,11 +62,18 @@ function makeSound (key){
                 sound1.play();
                 break;
     
-            default: but
+            default: console.log(buttonInnerHTML);
                 break;
         }
 }
 
 function buttonAnimation (currentKey){
 
-    document.querySelector("." + currentKey
+    var activeButton= document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+
+    setTimeout(function(){
+        activeButton.classList.add("pressed");
+    },100);
+
+}
